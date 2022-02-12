@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80235" started-at="2020-10-26T13:11:02 IST" finished-at="2020-10-26T13:12:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80235" started-at="2020-10-26T13:11:02 IST" finished-at="2020-10-26T13:12:22 IST">
+      <class name="com.selenium.datadriven.framework.logintest.LoginTest">
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:0, instance:com.selenium.datadriven.framework.logintest.LoginTest@1188e820]" name="testOne" duration-ms="28111" started-at="2020-10-26T13:11:02 IST" data-provider="getTestOneData" finished-at="2020-10-26T13:11:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=T13, Col2=123.0, Col1=Ashish@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:0, instance:com.selenium.datadriven.framework.logintest.LoginTest@1188e820]" name="testOne" duration-ms="24443" started-at="2020-10-26T13:11:31 IST" data-provider="getTestOneData" finished-at="2020-10-26T13:11:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=T16, Col2=123.0, Col1=Bikas@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:0, instance:com.selenium.datadriven.framework.logintest.LoginTest@1188e820]" name="testOne" duration-ms="27122" started-at="2020-10-26T13:11:55 IST" data-provider="getTestOneData" finished-at="2020-10-26T13:12:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=T19, Col2=123.0, Col1=chetan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.selenium.datadriven.framework.logintest.LoginTest@1188e820]" name="report" is-config="true" duration-ms="191" started-at="2020-10-26T13:12:22 IST" finished-at="2020-10-26T13:12:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- com.selenium.datadriven.framework.logintest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
